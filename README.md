@@ -1,8 +1,8 @@
 # Machine-Learning-Algorithms
 
-Types of Supervised Algorithms
+#Types of Supervised Algorithms
 
-Regression Algorithms (predict continuous values)
+ Regression Algorithms (predict continuous values)
 
 Linear Regression – predicts a straight-line relationship between variables.
 
