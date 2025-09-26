@@ -52,26 +52,5 @@ Identifies data points that deviate significantly from the norm.
 
 ---
 
-## 🛠️ Quick Example (Clustering with k-Means)
 
-```python
-from sklearn.cluster import KMeans
-from sklearn.datasets import make_blobs
-import matplotlib.pyplot as plt
-
-# Generate synthetic data
-X, _ = make_blobs(n_samples=300, centers=4, random_state=42)
-
-# Fit k-Means
-kmeans = KMeans(n_clusters=4, random_state=42)
-labels = kmeans.fit_predict(X)
-
-# Plot results
-plt.scatter(X[:, 0], X[:, 1], c=labels, cmap="viridis")
-plt.scatter(kmeans.cluster_centers_[:, 0],
-            kmeans.cluster_centers_[:, 1],
-            c="red", marker="X", s=200, label="Centroids")
-plt.title("k-Means Clustering Example")
-plt.legend()
-plt.show()
 
