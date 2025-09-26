@@ -49,7 +49,8 @@ pip install numpy matplotlib scikit-learn
 1. Clone the repository:
     ```bash
     git clone https://github.com/ranjithayandrapati/Machine-Learning-Algorithms.git
-    cd Machine-Learning-Algorithms/Supervised\ Algorithms
+    cd Machine-Learning-Algorithms/Supervised Algorithms
+    cd Machine-Learning-Algorithms/UnSupervised Algorithms
     ```
 
 2. Open any notebook in Jupyter or Google Colab:
