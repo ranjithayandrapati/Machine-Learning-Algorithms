@@ -65,27 +65,25 @@ pip install numpy matplotlib scikit-learn
 - [scikit-learn documentation](https://scikit-learn.org/stable/documentation.html)
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
 
-  📋 Package Overview
 
-- | **Package**             | **Purpose**                                             |
-| ----------------------- | ------------------------------------------------------- |
-| **Core**                |                                                         |
-| `numpy`                 | Numerical computing & array operations                  |
-| `pandas`                | Data manipulation, CSV/Excel handling                   |
-| `matplotlib`, `seaborn` | Data visualization                                      |
-| **Machine Learning**    |                                                         |
-| `scikit-learn`          | Classic ML algorithms, preprocessing, model selection   |
-| `xgboost`               | Gradient boosting (high-performance)                    |
-| `lightgbm`              | Fast gradient boosting, great for large datasets        |
-| `catboost`              | Gradient boosting with categorical feature support      |
-| **Deep Learning**       |                                                         |
-| `tensorflow` / `keras`  | Neural networks, deep learning pipelines                |
-| `torch`, `torchvision`  | PyTorch for deep learning, vision datasets & transforms |
-| **Specialized**         |                                                         |
-| `umap-learn`            | Dimensionality reduction (alternative to t-SNE)         |
-| `imbalanced-learn`      | Oversampling/undersampling (SMOTE, etc.)                |
-| `optuna`                | Hyperparameter tuning (Bayesian optimization)           |
-| `mlxtend` (optional)    | Association rule mining (Apriori, FP-Growth)            |
+## 📋 Package Overview
+
+| **Category**      | **Package**            | **Purpose** |
+|-------------------|----------------------|-------------|
+| **Core**          | `numpy`              | Numerical computing & array operations |
+|                   | `pandas`             | Data manipulation, CSV/Excel handling |
+|                   | `matplotlib`, `seaborn` | Data visualization |
+| **Machine Learning** | `scikit-learn`     | Classic ML algorithms, preprocessing, model selection |
+|                   | `xgboost`            | Gradient boosting (high-performance) |
+|                   | `lightgbm`           | Fast gradient boosting, great for large datasets |
+|                   | `catboost`           | Gradient boosting with categorical feature support |
+| **Deep Learning** | `tensorflow`, `keras` | Neural networks, deep learning pipelines |
+|                   | `torch`, `torchvision` | PyTorch for deep learning, vision datasets & transforms |
+| **Specialized**   | `umap-learn`         | Dimensionality reduction (alternative to t-SNE) |
+|                   | `imbalanced-learn`   | Oversampling/undersampling (SMOTE, etc.) |
+|                   | `optuna`             | Hyperparameter tuning (Bayesian optimization) |
+|                   | `mlxtend` (optional) | Association rule mining (Apriori, FP-Growth) |
+
 
 
 ---
