@@ -31,18 +31,6 @@ This folder contains Jupyter notebooks implementing key supervised machine learn
 
 These algorithms provide a foundation for solving a wide variety of supervised machine learning problems, including both regression (predicting continuous values) and classification (predicting discrete labels) tasks.
 
-- **LinearRegression.ipynb**  
-  Implementation of Linear Regression for regression tasks, using the diabetes dataset.
-
-- **LogisticRegression.ipynb**  
-  Implementation of Logistic Regression for binary classification, demonstrated with the breast cancer dataset.
-
-- **KNN.ipynb**  
-  Implementation of k-Nearest Neighbors (kNN) classifier, including hyperparameter tuning and evaluation.
-
-- **DecisionTreeClassifier.ipynb**  
-  Example of Decision Tree Classifier for classification tasks, with visualization and performance metrics.
-
 ## Requirements
 
 - Python 3.x
@@ -76,6 +64,29 @@ pip install numpy matplotlib scikit-learn
 
 - [scikit-learn documentation](https://scikit-learn.org/stable/documentation.html)
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
+
+  📋 Package Overview
+
+- | **Package**             | **Purpose**                                             |
+| ----------------------- | ------------------------------------------------------- |
+| **Core**                |                                                         |
+| `numpy`                 | Numerical computing & array operations                  |
+| `pandas`                | Data manipulation, CSV/Excel handling                   |
+| `matplotlib`, `seaborn` | Data visualization                                      |
+| **Machine Learning**    |                                                         |
+| `scikit-learn`          | Classic ML algorithms, preprocessing, model selection   |
+| `xgboost`               | Gradient boosting (high-performance)                    |
+| `lightgbm`              | Fast gradient boosting, great for large datasets        |
+| `catboost`              | Gradient boosting with categorical feature support      |
+| **Deep Learning**       |                                                         |
+| `tensorflow` / `keras`  | Neural networks, deep learning pipelines                |
+| `torch`, `torchvision`  | PyTorch for deep learning, vision datasets & transforms |
+| **Specialized**         |                                                         |
+| `umap-learn`            | Dimensionality reduction (alternative to t-SNE)         |
+| `imbalanced-learn`      | Oversampling/undersampling (SMOTE, etc.)                |
+| `optuna`                | Hyperparameter tuning (Bayesian optimization)           |
+| `mlxtend` (optional)    | Association rule mining (Apriori, FP-Growth)            |
+
 
 ---
 
